@@ -11,11 +11,7 @@ namespace Egzamin_s18919.DTOs.Requests
     {
         [Required]
         public int IdMedicament { get; set; }
-        public DateTime DataRealizacji { get; set; }
-        public string Uwagi { get; set; }
-
-        [Required]
-        public List<Prescription> Prescriptions { get; set; }
+       
 
     }
 }
